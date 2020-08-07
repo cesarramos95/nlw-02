@@ -10,7 +10,7 @@ After clonning the repository, execute the command bellow to install the necessa
 npm install
 ```
 
-To install nodemon:      
+## To install nodemon      
 ```sh
 npm install nodemon
 ```
@@ -19,3 +19,6 @@ npm install nodemon
 ```sh
 npm run dev
 ```
+
+## How to test the application:
+ After to start local server open your browser at http://localhost:5500 to run the app.
