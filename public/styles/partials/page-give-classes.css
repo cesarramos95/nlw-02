@@ -12,7 +12,7 @@
      width: 100%;
      max-width: 74rem;
      border-radius: .8rem;
-     margin: -3.2rem auto 3.2rem; /* com margem negativa o formulário sobe um pouco pro header*/
+     margin: -3.2rem auto 3.2rem; /* With negative margin the form goes up a little bit to the head */
      padding-top: 6.4rem;
  }
 
@@ -29,7 +29,7 @@
 
      display: flex;
      align-items: center;
-     justify-content: space-between; /* Separa elementos que estão na mesma linha */
+     justify-content: space-between; /* Separate elements the are on same line */
 
      width: 100%;
 
@@ -150,7 +150,7 @@
     }
 
     #page-give-classes main footer button {
-        margin-top: 0; /* Para que o botão fique alinhado ao ícone de aviso */
+        margin-top: 0; /* For the button to align with the warning icon */
         width: 200px;
     }
  }

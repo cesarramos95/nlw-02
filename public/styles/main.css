@@ -1,7 +1,7 @@
 /* CSS - Cascading Style Sheets */
 
 :root {
-    /* Variáveis CSS */
+    /* CSS variables */
     --color-background: #F0F0F7;
     --color-primary-lighter: #9871F5;
     --color-primary-light: #916BEA;
@@ -21,8 +21,8 @@
     --color-box-base: #FFFFFF;
     --color-box-footer: #FAFAFC;
     --color-small-info: #C1BCCC;
-    /* Tamanho da fonte padrão: 16px - 100% - 1rem */
-    font-size: 60%; /* controle das medidas rem */
+    /* Default size of fonts: 16px - 100% - 1rem */
+    font-size: 60%; /* Controll of rem measures */
 }
 
 * {
@@ -55,12 +55,12 @@ textarea {
 }
 
 #container {
-    width: 90vw; /* Divide a largura da página em 90 partes */
+    width: 90vw; /* Divide the width page into 90 parts */
     max-width: 700px;
 }
 
 @media (min-width: 700px) {
     :root {
-        font-size: 62.5%; /* Todo 1rem vai ser relativo a 10px */
+        font-size: 62.5%; /* Every 1rem will be relative to 10px */
     }
 }

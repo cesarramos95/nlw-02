@@ -1,7 +1,7 @@
 // Search button to add fields
 document.querySelector("#add-time")
 .addEventListener('click', cloneField)
-// Quando clicar no botão
+// When click on button
 
 // Function to duplicate the fields
 function cloneField() {

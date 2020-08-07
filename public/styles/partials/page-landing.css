@@ -88,23 +88,23 @@
 
 @media (max-width: 699px) {
     :root {
-        font-size: 40%; /* modificar as medidas rem */
+        font-size: 40%; /* Modify rem measures */
     }
 }
 
-@media (min-width: 1100px) { /* Define a largura mínima da página em desktops */
+@media (min-width: 1100px) { /* Sets the minimum page width on desktops */
     #page-landing #container {
         max-width: 1100px;
-        display: grid; /* Divide o layout da página em grades */
-        grid-template-columns: 2fr 1fr 2fr; /* Frações que os elementos ocupam na coluna */
-        grid-template-rows: 350px 1fr; /* Frações que os elementos ocupam na linha */
+        display: grid; /* Divides the page element into grid */
+        grid-template-columns: 2fr 1fr 2fr; /* Fractions that the elements occupy in the column */
+        grid-template-rows: 350px 1fr; /* Fractions that the elements occupy in the line */
         grid-template-areas:
         "proffy image image"
         "button button texting";
-        column-gap: 86px; /* Espaçamento entre linhas e colunas do grid */
+        column-gap: 86px; /* Spacing between rows and columns of the grid */
         row-gap: 87px;
     }
-    /* Disposição dos elementos dentro do grid da página */
+    /* Layout of elements within the page grid */
     .logo-container {
         grid-area: proffy;
         text-align: initial;
@@ -122,7 +122,7 @@
     }
     .buttons-container {
         grid-area: button;
-        justify-content: flex-start; /* Alinha ao início do grid */
+        justify-content: flex-start; /* Align to start of the grid */
         margin: 0;
     }
     .total-connections {
