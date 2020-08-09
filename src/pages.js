@@ -6,6 +6,10 @@ function pageLanding(req, res) {
     return res.render("index.html") // Concatenation to find the home page file
 }
 
+function pageSuccess(req, res) {
+    return res.render("success.html")
+}
+
 async function pageStudy(req, res) {
     const filters = req.query
 
@@ -88,13 +92,14 @@ async function saveClasses(req, res) {
         
     } catch (error) {
         console.log(error)
-    }            
-   
+    }   
+      
 }
 
 module.exports = {
     pageLanding,
     pageStudy,
     pageGiveClasses,
-    saveClasses
+    saveClasses,
+    pageSuccess
 }
